@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_arvore_3",
+  "%Name":"obj_arvore3",
   "eventList":[],
   "managed":true,
-  "name":"obj_arvore_3",
+  "name":"obj_arvore3",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundo",
     "path":"folders/Objetos/obj_mundo.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_colisao_mundo",
+    "path":"objects/obj_colisao_mundo/obj_colisao_mundo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
