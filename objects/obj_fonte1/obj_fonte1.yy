@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_casa_3",
+  "%Name":"obj_fonte1",
   "eventList":[],
   "managed":true,
-  "name":"obj_casa_3",
+  "name":"obj_fonte1",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundo",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HOUSE_2___DAY2",
-    "path":"sprites/HOUSE_2___DAY2/HOUSE_2___DAY2.yy",
+    "name":"Fonte",
+    "path":"sprites/Fonte/Fonte.yy",
   },
   "spriteMaskId":null,
   "visible":true,

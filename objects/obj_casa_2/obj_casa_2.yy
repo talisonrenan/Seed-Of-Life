@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CHURCH___DAY",
-    "path":"sprites/CHURCH___DAY/CHURCH___DAY.yy",
+    "name":"CHURCH___DAY1",
+    "path":"sprites/CHURCH___DAY1/CHURCH___DAY1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

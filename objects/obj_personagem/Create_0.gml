@@ -1,7 +1,7 @@
 /// @description Inicialização do Personagem
 
 // ➡️ Nova escala do personagem para 0.2 (20%)
-var personagem_escala = 0.2; 
+var personagem_escala = 0.25 
 
 image_xscale = personagem_escala; 
 image_yscale = personagem_escala;

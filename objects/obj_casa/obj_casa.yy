@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HOUSE_1___DAY",
-    "path":"sprites/HOUSE_1___DAY/HOUSE_1___DAY.yy",
+    "name":"HOUSE_1___DAY1",
+    "path":"sprites/HOUSE_1___DAY1/HOUSE_1___DAY1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

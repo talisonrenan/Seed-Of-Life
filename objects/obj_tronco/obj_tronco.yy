@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_casa_3",
+  "%Name":"obj_tronco",
   "eventList":[],
   "managed":true,
-  "name":"obj_casa_3",
+  "name":"obj_tronco",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundo",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HOUSE_2___DAY2",
-    "path":"sprites/HOUSE_2___DAY2/HOUSE_2___DAY2.yy",
+    "name":"Decorations_2",
+    "path":"sprites/Decorations_2/Decorations_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

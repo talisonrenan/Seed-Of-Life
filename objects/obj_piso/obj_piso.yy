@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_casa_3",
+  "%Name":"obj_piso",
   "eventList":[],
   "managed":true,
-  "name":"obj_casa_3",
+  "name":"obj_piso",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundo",
     "path":"folders/Objetos/obj_mundo.yy",
   },
-  "parentObjectId":{
-    "name":"obj_colisao_mundo",
-    "path":"objects/obj_colisao_mundo/obj_colisao_mundo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HOUSE_2___DAY2",
-    "path":"sprites/HOUSE_2___DAY2/HOUSE_2___DAY2.yy",
+    "name":"ground_demo",
+    "path":"sprites/ground_demo/ground_demo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TX_Village_Props",
-    "path":"sprites/TX_Village_Props/TX_Village_Props.yy",
+    "name":"Decorations",
+    "path":"sprites/Decorations/Decorations.yy",
   },
   "spriteMaskId":null,
   "visible":true,
