@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"monster1attack",
-    "path":"sprites/monster1attack/monster1attack.yy",
+    "name":"monstercarn_idle",
+    "path":"sprites/monstercarn_idle/monstercarn_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

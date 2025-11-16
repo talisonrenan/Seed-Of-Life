@@ -1,10 +1,14 @@
 /// @description Movimento e Animação do Personagem
 
+// ==========================================================
+// LÓGICA ORIGINAL DO PERSONAGEM
+// ==========================================================
+
 // 1. Captura de Inputs
-key_left  = keyboard_check(vk_left);
+key_left  = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
-key_up    = keyboard_check(vk_up);
-key_down  = keyboard_check(vk_down);
+key_up    = keyboard_check(vk_up);
+key_down  = keyboard_check(vk_down);
 
 // 2. Cálculo do Movimento
 var move_x = (key_right - key_left) * move_speed;
@@ -47,25 +51,25 @@ if (move_y != 0) {
 // 4. Troca de Sprite e Animação (COM VERIFICAÇÃO DE DANO)
 // ==========================================================
 if (is_hit == false) { 
-    if (move_x != 0 || move_y != 0) { // O personagem se moveu?
-        // Se estiver se movendo
-        sprite_index = Sprite_run;
-        image_speed = 1;
-    } else {
-        // Se estiver parado
-        sprite_index = Sprite_idle;
-        image_speed = 0; 
-        image_index = 0;
-    }
+    if (move_x != 0 || move_y != 0) { // O personagem se moveu?
+        // Se estiver se movendo
+        sprite_index = Sprite_run;
+        image_speed = 1;
+    } else {
+        // Se estiver parado
+        sprite_index = Sprite_idle;
+        image_speed = 0; 
+        image_index = 0;
+    }
 }
 
 // 5. Ajuste da Direção (Espelhar) e Escala
-var current_scale = abs(image_xscale); 
+var current_scale = abs(image_xscale); 
 
 if (move_x > 0) {
-    image_xscale = current_scale; 
+    image_xscale = current_scale; 
 } else if (move_x < 0) {
-    image_xscale = -current_scale; 
+    image_xscale = -current_scale; 
 }
 
 image_yscale = current_scale;

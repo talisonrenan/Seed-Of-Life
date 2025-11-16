@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Fonte",
-    "path":"sprites/Fonte/Fonte.yy",
+    "name":"Fonteplus_Picsart_BackgroundRemover",
+    "path":"sprites/Fonteplus_Picsart_BackgroundRemover/Fonteplus_Picsart_BackgroundRemover.yy",
   },
   "spriteMaskId":null,
   "visible":true,
