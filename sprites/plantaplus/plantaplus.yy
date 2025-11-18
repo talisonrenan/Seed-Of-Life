@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"plantaplus",
   "bboxMode":0,
   "bbox_bottom":1021,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0759254f-d792-4a17-a244-81eb219b9fc0","name":"0759254f-d792-4a17-a244-81eb219b9fc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0759254f-d792-4a17-a244-81eb219b9fc0","name":"0759254f-d792-4a17-a244-81eb219b9fc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1126.0,
+    "seqWidth":588.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

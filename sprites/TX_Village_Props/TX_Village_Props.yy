@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"TX_Village_Props",
   "bboxMode":0,
   "bbox_bottom":187,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b61732c8-e797-4ece-9eb9-447ec7f7a944","name":"b61732c8-e797-4ece-9eb9-447ec7f7a944","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b61732c8-e797-4ece-9eb9-447ec7f7a944","name":"b61732c8-e797-4ece-9eb9-447ec7f7a944","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":200.0,
+    "seqWidth":189.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

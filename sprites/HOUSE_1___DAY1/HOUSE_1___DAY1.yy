@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"HOUSE_1___DAY1",
   "bboxMode":0,
   "bbox_bottom":124,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b6afd818-2745-4be0-aa52-7c3dc1d73a40","name":"b6afd818-2745-4be0-aa52-7c3dc1d73a40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b6afd818-2745-4be0-aa52-7c3dc1d73a40","name":"b6afd818-2745-4be0-aa52-7c3dc1d73a40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":129.0,
+    "seqWidth":98.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

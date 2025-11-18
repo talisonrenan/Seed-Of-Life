@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"placa",
   "bboxMode":0,
   "bbox_bottom":782,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":819.0,
+    "seqWidth":819.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
