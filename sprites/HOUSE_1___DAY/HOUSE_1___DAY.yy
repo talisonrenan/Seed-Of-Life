@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"HOUSE_1___DAY",
   "bboxMode":0,
   "bbox_bottom":111,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2aad0d3d-5252-4b65-a41a-8e77c36550d3","name":"2aad0d3d-5252-4b65-a41a-8e77c36550d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2aad0d3d-5252-4b65-a41a-8e77c36550d3","name":"2aad0d3d-5252-4b65-a41a-8e77c36550d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

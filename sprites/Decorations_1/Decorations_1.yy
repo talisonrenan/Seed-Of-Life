@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Decorations_1",
   "bboxMode":0,
   "bbox_bottom":72,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"108a265c-efb7-4275-b437-b9e32016700b","name":"108a265c-efb7-4275-b437-b9e32016700b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"108a265c-efb7-4275-b437-b9e32016700b","name":"108a265c-efb7-4275-b437-b9e32016700b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

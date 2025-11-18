@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"projeto_seminario",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -101,12 +101,6 @@
     {"id":{"name":"HOUSE_2___DAY","path":"sprites/HOUSE_2___DAY/HOUSE_2___DAY.yy",},},
     {"id":{"name":"HOUSE_2___DAY2","path":"sprites/HOUSE_2___DAY2/HOUSE_2___DAY2.yy",},},
     {"id":{"name":"IceTileset","path":"sprites/IceTileset/IceTileset.yy",},},
-    {"id":{"name":"Icon1","path":"sprites/Icon1/Icon1.yy",},},
-    {"id":{"name":"Icon2","path":"sprites/Icon2/Icon2.yy",},},
-    {"id":{"name":"Icon3","path":"sprites/Icon3/Icon3.yy",},},
-    {"id":{"name":"Jogar","path":"sprites/Jogar/Jogar.yy",},},
-    {"id":{"name":"monster1attack","path":"sprites/monster1attack/monster1attack.yy",},},
-    {"id":{"name":"monster1idle","path":"sprites/monster1idle/monster1idle.yy",},},
     {"id":{"name":"monster2_attack","path":"sprites/monster2_attack/monster2_attack.yy",},},
     {"id":{"name":"monster2_idle","path":"sprites/monster2_idle/monster2_idle.yy",},},
     {"id":{"name":"monsterboss_attack","path":"sprites/monsterboss_attack/monsterboss_attack.yy",},},
