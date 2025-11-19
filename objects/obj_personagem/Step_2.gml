@@ -9,11 +9,11 @@ if (sprite_index == sprite_atacado_index) {
     // Verifica se o personagem estava se movendo para voltar à animação correta
     if (keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up) || keyboard_check(vk_down)) {
         // Se estava movendo, volta para RUN
-        sprite_index = Sprite_run; 
+        sprite_index = Sprite_idle; 
         image_speed = 1;
     } else {
         // Se estava parado, volta para IDLE
-        sprite_index = Sprite_idle; 
+        sprite_index = Sprite_run; 
         image_index = 0;
         image_speed = 0;
     }

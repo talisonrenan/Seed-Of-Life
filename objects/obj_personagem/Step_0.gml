@@ -53,11 +53,11 @@ if (move_y != 0) {
 if (is_hit == false) { 
     if (move_x != 0 || move_y != 0) { // O personagem se moveu?
         // Se estiver se movendo
-        sprite_index = Sprite_run;
+        sprite_index = Sprite_idle;
         image_speed = 1;
     } else {
         // Se estiver parado
-        sprite_index = Sprite_idle;
+        sprite_index = Sprite_run;
         image_speed = 0; 
         image_index = 0;
     }

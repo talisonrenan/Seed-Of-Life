@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_credito",
+  "%Name":"obj_controles",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_credito",
+  "name":"obj_controles",
   "overriddenProperties":[],
   "parent":{
     "name":"menubackground",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Cr_ditos",
-    "path":"sprites/Cr_ditos/Cr_ditos.yy",
+    "name":"Controles",
+    "path":"sprites/Controles/Controles.yy",
   },
   "spriteMaskId":null,
   "visible":true,
