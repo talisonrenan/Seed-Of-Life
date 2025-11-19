@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"projeto_seminario",
   "resources":[
@@ -56,6 +56,7 @@
     {"id":{"name":"obj_grass_detal_4","path":"objects/obj_grass_detal_4/obj_grass_detal_4.yy",},},
     {"id":{"name":"obj_grass_detal_5","path":"objects/obj_grass_detal_5/obj_grass_detal_5.yy",},},
     {"id":{"name":"obj_jogar","path":"objects/obj_jogar/obj_jogar.yy",},},
+    {"id":{"name":"obj_menu_controle","path":"objects/obj_menu_controle/obj_menu_controle.yy",},},
     {"id":{"name":"obj_monster1","path":"objects/obj_monster1/obj_monster1.yy",},},
     {"id":{"name":"obj_monster2","path":"objects/obj_monster2/obj_monster2.yy",},},
     {"id":{"name":"obj_monsterboss","path":"objects/obj_monsterboss/obj_monsterboss.yy",},},
@@ -101,6 +102,7 @@
     {"id":{"name":"HOUSE_2___DAY","path":"sprites/HOUSE_2___DAY/HOUSE_2___DAY.yy",},},
     {"id":{"name":"HOUSE_2___DAY2","path":"sprites/HOUSE_2___DAY2/HOUSE_2___DAY2.yy",},},
     {"id":{"name":"IceTileset","path":"sprites/IceTileset/IceTileset.yy",},},
+    {"id":{"name":"Jogar","path":"sprites/Jogar/Jogar.yy",},},
     {"id":{"name":"monster2_attack","path":"sprites/monster2_attack/monster2_attack.yy",},},
     {"id":{"name":"monster2_idle","path":"sprites/monster2_idle/monster2_idle.yy",},},
     {"id":{"name":"monsterboss_attack","path":"sprites/monsterboss_attack/monsterboss_attack.yy",},},
