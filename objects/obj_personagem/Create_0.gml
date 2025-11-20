@@ -10,12 +10,3 @@ move_speed = 3;
 
 // 🚨 ESSENCIAL: Flag para o estado de acerto/dano
 is_hit = false;
-
-// Create Event do obj_personagem
-function colisao_piso() {
-    if (place_meeting(x, y+1, obj_piso)) {
-        // Lógica de pisar no chão
-        vspeed = 0;
-        grounded = true;
-    }
-}

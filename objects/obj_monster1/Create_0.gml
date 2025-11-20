@@ -2,7 +2,7 @@
 
 state = monster_state.IDLE;
 move_speed = 1.5;
-attack_range = 32;
+attack_range = 65
 
 target_object = noone;
 attack_damage = 10;

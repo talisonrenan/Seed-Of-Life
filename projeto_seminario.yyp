@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"projeto_seminario",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"projeto_seminario",
   "resources":[
@@ -80,6 +80,7 @@
     {"id":{"name":"Object27","path":"objects/Object27/Object27.yy",},},
     {"id":{"name":"Object40","path":"objects/Object40/Object40.yy",},},
     {"id":{"name":"controles","path":"rooms/controles/controles.yy",},},
+    {"id":{"name":"creditos","path":"rooms/creditos/creditos.yy",},},
     {"id":{"name":"inicial","path":"rooms/inicial/inicial.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"arvore_1","path":"sprites/arvore_1/arvore_1.yy",},},
@@ -129,13 +130,11 @@
     {"id":{"name":"RPG_Nature_Tileset","path":"sprites/RPG_Nature_Tileset/RPG_Nature_Tileset.yy",},},
     {"id":{"name":"Sair","path":"sprites/Sair/Sair.yy",},},
     {"id":{"name":"SeedOfLife","path":"sprites/SeedOfLife/SeedOfLife.yy",},},
-    {"id":{"name":"Sprite_atack3_Picsart_BackgroundRemover__1_","path":"sprites/Sprite_atack3_Picsart_BackgroundRemover__1_/Sprite_atack3_Picsart_BackgroundRemover__1_.yy",},},
-    {"id":{"name":"Sprite_atack3_Picsart_BackgroundRemover","path":"sprites/Sprite_atack3_Picsart_BackgroundRemover/Sprite_atack3_Picsart_BackgroundRemover.yy",},},
+    {"id":{"name":"Sprite_fire","path":"sprites/Sprite_fire/Sprite_fire.yy",},},
+    {"id":{"name":"Sprite_firearrow","path":"sprites/Sprite_firearrow/Sprite_firearrow.yy",},},
+    {"id":{"name":"Sprite_fireblock","path":"sprites/Sprite_fireblock/Sprite_fireblock.yy",},},
     {"id":{"name":"Sprite_idle","path":"sprites/Sprite_idle/Sprite_idle.yy",},},
     {"id":{"name":"Sprite_run","path":"sprites/Sprite_run/Sprite_run.yy",},},
-    {"id":{"name":"sprite5_1","path":"sprites/sprite5_1/sprite5_1.yy",},},
-    {"id":{"name":"sprite5","path":"sprites/sprite5/sprite5.yy",},},
-    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"TERRAIN_SET_1___DAY","path":"sprites/TERRAIN_SET_1___DAY/TERRAIN_SET_1___DAY.yy",},},
     {"id":{"name":"TERRAIN_SET_2___DAY","path":"sprites/TERRAIN_SET_2___DAY/TERRAIN_SET_2___DAY.yy",},},
     {"id":{"name":"TREE_1___DAY","path":"sprites/TREE_1___DAY/TREE_1___DAY.yy",},},
@@ -154,6 +153,7 @@
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"inicial","path":"rooms/inicial/inicial.yy",},},
     {"roomId":{"name":"controles","path":"rooms/controles/controles.yy",},},
+    {"roomId":{"name":"creditos","path":"rooms/creditos/creditos.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Sair",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"20600ef1-ddb5-46c6-86c4-a9d9fa69070a","name":"20600ef1-ddb5-46c6-86c4-a9d9fa69070a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"20600ef1-ddb5-46c6-86c4-a9d9fa69070a","name":"20600ef1-ddb5-46c6-86c4-a9d9fa69070a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

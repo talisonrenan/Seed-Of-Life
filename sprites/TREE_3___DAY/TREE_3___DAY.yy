@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"TREE_3___DAY",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c79b1fc7-ca2b-41ce-9cae-62f14a43b6ab","name":"c79b1fc7-ca2b-41ce-9cae-62f14a43b6ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c79b1fc7-ca2b-41ce-9cae-62f14a43b6ab","name":"c79b1fc7-ca2b-41ce-9cae-62f14a43b6ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

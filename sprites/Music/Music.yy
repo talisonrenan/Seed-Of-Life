@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Music",
   "bboxMode":0,
   "bbox_bottom":252,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"95a11cdb-6bc5-4a90-96b0-2b7aed55fa1a","name":"95a11cdb-6bc5-4a90-96b0-2b7aed55fa1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95a11cdb-6bc5-4a90-96b0-2b7aed55fa1a","name":"95a11cdb-6bc5-4a90-96b0-2b7aed55fa1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
