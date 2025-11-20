@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Fundo",
-    "path":"sprites/Fundo/Fundo.yy",
+    "name":"fundo1",
+    "path":"sprites/fundo1/fundo1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
