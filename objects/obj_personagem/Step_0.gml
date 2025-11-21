@@ -8,6 +8,8 @@ key_right = keyboard_check(vk_right);
 key_up    = keyboard_check(vk_up);
 key_down  = keyboard_check(vk_down);
 
+key_atacar = keyboard_check(vk_enter);
+
 // ==========================================================
 // 2. Cálculo do Movimento
 // ==========================================================
@@ -55,7 +57,11 @@ if (is_hit == false) {
     if (move_x != 0 || move_y != 0) {
         sprite_index = Sprite_idle;
         image_speed = 1;
-    } else {
+    }else if (key_atacar == true){
+		sprite_index = Sprite_fireblock;
+		
+	
+	}else {
         sprite_index = Sprite_run;
         image_speed = 0;
         image_index = 0;
