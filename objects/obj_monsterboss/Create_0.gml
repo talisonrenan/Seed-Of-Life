@@ -9,8 +9,8 @@ move_x = 0;
 move_y = 0;
 
 // Combate
-attack_range = 80  // << AQUI! ERA 70, AGORA RANGE MAIOR
-attack_damage = 30;   // Você pode aumentar aqui também
+attack_range = 80;
+attack_damage = 30;   
 attack_cooldown = 60;
 can_attack = true;
 target_object = noone;
@@ -22,11 +22,11 @@ sprite_index = sprite_idle;
 image_speed = 1;
 
 // Escala do monstro
-image_xscale = 0.50;
-image_yscale = 0.50;
+image_xscale = 0.17;
+image_yscale = 0.41;
 
 // Colisão reduzida
-col_padding = 3
+col_padding = 1.5;
 
 // HITBOX PERSONALIZADA
 hitbox_width  = sprite_width * image_xscale - col_padding;

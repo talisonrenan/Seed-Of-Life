@@ -104,7 +104,7 @@ switch (state)
         image_speed = 1;
 
         // Flip do monstro
-        if (move_x != 0) image_xscale = sign(move_x) * 0.50;
+        if (move_x != 0) image_xscale = sign(move_x) * 0.41;
 
     break;
 
