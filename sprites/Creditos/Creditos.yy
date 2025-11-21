@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Cr_ditos",
+  "%Name":"Creditos",
   "bboxMode":2,
   "bbox_bottom":55,
   "bbox_left":13,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"deaebfe2-9949-49c7-8115-d8185e1a51cf","blendMode":0,"displayName":"default","isLocked":false,"name":"deaebfe2-9949-49c7-8115-d8185e1a51cf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Cr_ditos",
+  "name":"Creditos",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Cr_ditos",
+    "%Name":"Creditos",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Cr_ditos",
+    "name":"Creditos",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1c1d1ec-0e02-4c4f-8b04-0249cd164688","path":"sprites/Cr_ditos/Cr_ditos.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1c1d1ec-0e02-4c4f-8b04-0249cd164688","path":"sprites/Creditos/Creditos.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bbd78829-a821-467f-a9de-3149d97253f9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_credito",
+  "%Name":"obj_reiniciar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_credito",
+  "name":"obj_reiniciar",
   "overriddenProperties":[],
   "parent":{
     "name":"menubackground",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Creditos",
-    "path":"sprites/Creditos/Creditos.yy",
+    "name":"Reiniciar",
+    "path":"sprites/Reiniciar/Reiniciar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

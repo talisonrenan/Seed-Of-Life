@@ -190,3 +190,47 @@ if (step_y != 0) {
         step_y = 0;
     }
 }
+
+// ----------------------------------------------
+// VERIFICAÇÃO DE VITÓRIA DO MONSTRO (FIM DE JOGO)
+// ----------------------------------------------
+var all_trees_destroyed = true;
+
+// Verifica obj_arvore1
+var tree1_count = instance_number(obj_arvore1);
+for (var i = 0; i < tree1_count; i++) {
+    var tree = instance_find(obj_arvore1, i);
+    if (tree.hp > 0) {
+        all_trees_destroyed = false;
+        break;
+    }
+}
+
+// Se ainda não encontrou árvores vivas, verifica obj_arvore2
+if (all_trees_destroyed) {
+    var tree2_count = instance_number(obj_arvore2);
+    for (var i = 0; i < tree2_count; i++) {
+        var tree = instance_find(obj_arvore2, i);
+        if (tree.hp > 0) {
+            all_trees_destroyed = false;
+            break;
+        }
+    }
+}
+
+// Se ainda não encontrou árvores vivas, verifica obj_arvore3
+if (all_trees_destroyed) {
+    var tree3_count = instance_number(obj_arvore3);
+    for (var i = 0; i < tree3_count; i++) {
+        var tree = instance_find(obj_arvore3, i);
+        if (tree.hp > 0) {
+            all_trees_destroyed = false;
+            break;
+        }
+    }
+}
+
+// Se todas as árvores foram destruídas, mostra tela de fim de jogo
+if (all_trees_destroyed) {
+    room_goto(fim_de_jogo);
+}

@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fundo",
-  "eventList":[],
+  "%Name":"obj_sairjg",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_fundo",
+  "name":"obj_sairjg",
   "overriddenProperties":[],
   "parent":{
     "name":"menubackground",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"fundo1",
-    "path":"sprites/fundo1/fundo1.yy",
+    "name":"Sairjg",
+    "path":"sprites/Sairjg/Sairjg.yy",
   },
   "spriteMaskId":null,
   "visible":true,
