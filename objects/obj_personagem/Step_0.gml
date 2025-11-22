@@ -3,52 +3,43 @@
 // ==========================================================
 // 1. Captura de Inputs
 // ==========================================================
-key_left  = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_up    = keyboard_check(vk_up);
-key_down  = keyboard_check(vk_down);
+// Inputs de Teclado
+var h = keyboard_check(vk_right) - keyboard_check(vk_left);
+var v = keyboard_check(vk_down)  - keyboard_check(vk_up);
 
 key_atacar = keyboard_check(vk_space);
 
-// ==========================================================
-// 2. Cálculo do Movimento
-// ==========================================================
-var move_x = (key_right - key_left) * move_speed;
-var move_y = (key_down - key_up) * move_speed;
+// Inputs Mobile (se existir boton)
+if (instance_exists(objmobileesquerda))  if (objmobileesquerda.pressed)  h = -1;
+if (instance_exists(objmobiledireita))  if (objmobiledireita.pressed)  h =  1;
+if (instance_exists(objmobilecima))      if (objmobilecima.pressed)      v = -1;
+if (instance_exists(objmobilebaixo))     if (objmobilebaixo.pressed)     v =  1;
 
-// ==========================================================
-// 3. COLISÃO SUAVE COM DESLIZAMENTO (NOVO)
-// ==========================================================
+var attacking = false;
+if (instance_exists(objmobileatacar)) if (objmobileatacar.pressed) key_atacar = true;
+var move_x = h * move_speed;
+var move_y = v * move_speed;
 
-var step_x = move_x;
-var step_y = move_y;
-
-// --- COLISÃO X ---
-if (step_x != 0) {
-    // Se não tiver colisão → move direto
-    if (!place_meeting(x + step_x, y, obj_colisao_mundo)) {
-        x += step_x;
-    } else {
-        // Se bater → tenta deslizar 1 pixel sem travar
-        if (!place_meeting(x + sign(step_x), y, obj_colisao_mundo)) {
-            x += sign(step_x);
-        }
-        step_x = 0;
-    }
+// --- Colisão X ---
+if (move_x != 0) {
+    if (!place_meeting(x + move_x, y, obj_colisao_mundo))
+        x += move_x;
+    else if (!place_meeting(x + sign(move_x), y, obj_colisao_mundo))
+        x += sign(move_x);
 }
 
-// --- COLISÃO Y ---
-if (step_y != 0) {
-    if (!place_meeting(x, y + step_y, obj_colisao_mundo)) {
-        y += step_y;
-    } else {
-        // Desliza sem travar
-        if (!place_meeting(x, y + sign(step_y), obj_colisao_mundo)) {
-            y += sign(step_y);
-        }
-        step_y = 0;
-    }
+// --- Colisão Y ---
+if (move_y != 0) {
+    if (!place_meeting(x, y + move_y, obj_colisao_mundo))
+        y += move_y;
+    else if (!place_meeting(x, y + sign(move_y), obj_colisao_mundo))
+        y += sign(move_y);
 }
+
+
+
+
+
 
 // ==========================================================
 // 4. Troca de Sprite e Animação (mantido do seu código)
