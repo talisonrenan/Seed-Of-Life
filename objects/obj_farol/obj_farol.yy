@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grass_detal_4",
+  "%Name":"obj_farol",
   "eventList":[],
   "managed":true,
-  "name":"obj_grass_detal_4",
+  "name":"obj_farol",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundo",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"GRASS_DETAIL_4___DAY",
-    "path":"sprites/GRASS_DETAIL_4___DAY/GRASS_DETAIL_4___DAY.yy",
+    "name":"farol",
+    "path":"sprites/farol/farol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

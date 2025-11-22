@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"GRASS_DETAIL_5___DAY",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0f076f11-fd1d-4d6f-84d0-502b18238ac8","name":"0f076f11-fd1d-4d6f-84d0-502b18238ac8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0f076f11-fd1d-4d6f-84d0-502b18238ac8","name":"0f076f11-fd1d-4d6f-84d0-502b18238ac8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

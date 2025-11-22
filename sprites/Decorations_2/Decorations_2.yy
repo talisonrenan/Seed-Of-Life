@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Decorations_2",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ddfe505c-e4f1-421c-9743-f4953f4dc14f","name":"ddfe505c-e4f1-421c-9743-f4953f4dc14f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ddfe505c-e4f1-421c-9743-f4953f4dc14f","name":"ddfe505c-e4f1-421c-9743-f4953f4dc14f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":32.0,
+    "seqWidth":39.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

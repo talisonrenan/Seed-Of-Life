@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"RPG_Nature_Tileset",
   "bboxMode":0,
   "bbox_bottom":287,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1c06d971-f6c6-4c18-8f9f-93fa694fd4f8","name":"1c06d971-f6c6-4c18-8f9f-93fa694fd4f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1c06d971-f6c6-4c18-8f9f-93fa694fd4f8","name":"1c06d971-f6c6-4c18-8f9f-93fa694fd4f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Seta_cima",
   "bboxMode":0,
   "bbox_bottom":180,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"dced3a3b-1e91-4980-94c3-6563b527629f","name":"dced3a3b-1e91-4980-94c3-6563b527629f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dced3a3b-1e91-4980-94c3-6563b527629f","name":"dced3a3b-1e91-4980-94c3-6563b527629f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":187.0,
+    "seqWidth":273.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Sairjg",
   "bboxMode":0,
   "bbox_bottom":76,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5b22b722-bea2-4727-9960-4c981360960b","name":"5b22b722-bea2-4727-9960-4c981360960b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5b22b722-bea2-4727-9960-4c981360960b","name":"5b22b722-bea2-4727-9960-4c981360960b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":83.0,
+    "seqWidth":274.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

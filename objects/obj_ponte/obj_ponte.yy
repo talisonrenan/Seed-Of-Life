@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grass_detal_5",
+  "%Name":"obj_ponte",
   "eventList":[],
   "managed":true,
-  "name":"obj_grass_detal_5",
+  "name":"obj_ponte",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundo",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"GRASS_DETAIL_5___DAY",
-    "path":"sprites/GRASS_DETAIL_5___DAY/GRASS_DETAIL_5___DAY.yy",
+    "name":"ponte",
+    "path":"sprites/ponte/ponte.yy",
   },
   "spriteMaskId":null,
   "visible":true,

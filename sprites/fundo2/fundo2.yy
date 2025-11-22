@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"fundo2",
   "bboxMode":0,
   "bbox_bottom":1075,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"58e20287-3957-4cc3-afd9-fd52f8b5cdb0","name":"58e20287-3957-4cc3-afd9-fd52f8b5cdb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"58e20287-3957-4cc3-afd9-fd52f8b5cdb0","name":"58e20287-3957-4cc3-afd9-fd52f8b5cdb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1079.0,
+    "seqWidth":1222.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
