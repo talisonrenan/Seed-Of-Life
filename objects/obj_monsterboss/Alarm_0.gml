@@ -8,3 +8,4 @@ if (state == monster_state.IDLE) {
     state = monster_state.MOVE;
     alarm[0] = room_speed * 2;
 }
+

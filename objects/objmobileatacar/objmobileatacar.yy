@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Seta_atacar",
-    "path":"sprites/Seta_atacar/Seta_atacar.yy",
+    "name":"Seta_atacar1",
+    "path":"sprites/Seta_atacar1/Seta_atacar1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

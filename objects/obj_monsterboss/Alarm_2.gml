@@ -8,50 +8,61 @@ if (instance_exists(target_object)) {
         target_object.object_index == obj_arvore2 || 
         target_object.object_index == obj_arvore3) {
 
-        // DEBUG: Mostrar mensagem no console
-        show_debug_message("Atacando árvore! HP antes: " + string(target_object.hp));
-        
-        // Reduz o HP da árvore
         if (variable_instance_exists(target_object, "hp")) {
-            target_object.hp -= attack_damage;
-            
-            // DEBUG: Mostrar HP após o ataque
-            show_debug_message("HP depois: " + string(target_object.hp));
+            target_object.hp -= attack_damage; // Dano 30
 
             if (target_object.hp <= 0) {
                 target_object.hp = 0;
-                
-                // DEBUG: Árvore destruída
-                show_debug_message("ÁRVORE DESTRUÍDA!");
-                
-                // Mudar sprite se tiver sprite de destruição
-                if (variable_instance_exists(target_object, "sprite_destroyed") && target_object.sprite_destroyed != -1) {
+
+                // Aumenta vida do monstro até o máximo
+                if (max_hp < 20) {
+                    max_hp += 1;
+                    hp = max_hp;
+                }
+
+                // Sprite de destruição (se existir)
+                if (variable_instance_exists(target_object, "sprite_destroyed") &&
+                    target_object.sprite_destroyed != -1)
+                {
                     target_object.sprite_index = target_object.sprite_destroyed;
                 }
-                
-                // Opcional: Esconder barra de vida
+
+                // Esconde barra de vida da árvore (se existir)
                 if (variable_instance_exists(target_object, "show_life_bar")) {
                     target_object.show_life_bar = false;
                 }
-                
-                // Árvore destruída - procurar novo alvo
+
+                // Reset do alvo
                 target_object = noone;
                 state = monster_state.IDLE;
             }
         }
-        else {
-            show_debug_message("ERRO: Variável hp não existe na árvore!");
-        }
     }
 
-    // Se o alvo for personagem
+    // Se o alvo for o personagem
     else if (target_object.object_index == obj_personagem) {
-        var sprite_atacado_index = asset_get_index("Sprite_atacado");
-        if (sprite_atacado_index != -1) {
+
+        var personagem_damage = 2;
+
+        if (variable_instance_exists(target_object, "hp_personagem")) {
+
+            target_object.hp_personagem -= personagem_damage;
+
+            // Ativa estado de acerto
             target_object.is_hit = true;
-            target_object.sprite_index = sprite_atacado_index;
+            target_object.hit_timer = 11;
+
+            // Troca de sprite
+            target_object.sprite_index = Sprite_atacado;
             target_object.image_index = 0;
             target_object.image_speed = 1;
+
+            // Recuo do personagem
+            var direcao_recuo = point_direction(x, y, target_object.x, target_object.y);
+            var forca_recuo = 8;
+
+            target_object.x += lengthdir_x(forca_recuo, direcao_recuo);
+            target_object.y += lengthdir_y(forca_recuo, direcao_recuo);
         }
     }
 }

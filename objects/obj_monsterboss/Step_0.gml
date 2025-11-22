@@ -11,13 +11,13 @@ var tree3_inst  = instance_nearest(x, y, obj_arvore3);
 target_object = noone;
 var min_dist = 1000000;
 
-// PERSONAGEM
+// Personagem
 if (instance_exists(target_inst)) {
     min_dist = point_distance(x, y, target_inst.x, target_inst.y);
     target_object = target_inst;
 }
 
-// ÁRVORE 1
+// Árvore 1
 if (instance_exists(tree1_inst)) {
     var d = point_distance(x, y, tree1_inst.x, tree1_inst.y);
     if (variable_instance_exists(tree1_inst, "hp") && tree1_inst.hp > 0) {
@@ -28,7 +28,7 @@ if (instance_exists(tree1_inst)) {
     }
 }
 
-// ÁRVORE 2
+// Árvore 2
 if (instance_exists(tree2_inst)) {
     var d = point_distance(x, y, tree2_inst.x, tree2_inst.y);
     if (variable_instance_exists(tree2_inst, "hp") && tree2_inst.hp > 0) {
@@ -39,7 +39,7 @@ if (instance_exists(tree2_inst)) {
     }
 }
 
-// ÁRVORE 3
+// Árvore 3
 if (instance_exists(tree3_inst)) {
     var d = point_distance(x, y, tree3_inst.x, tree3_inst.y);
     if (variable_instance_exists(tree3_inst, "hp") && tree3_inst.hp > 0) {
@@ -58,6 +58,7 @@ switch (state)
 {
     // ---------------------------------------------------
     case monster_state.IDLE:
+
         move_x = 0;
         move_y = 0;
 
@@ -71,42 +72,44 @@ switch (state)
 
 
     // ---------------------------------------------------
-    case monster_state.MOVE:
+	case monster_state.MOVE:
 
-        if (target_object == noone) {
-            state = monster_state.IDLE;
-        }
-        else
-        {
-            // Se alvo morreu → volta pro idle
-            if (!instance_exists(target_object) ||
-                (target_object.object_index != obj_personagem &&
-                 variable_instance_exists(target_object, "hp") &&
-                 target_object.hp <= 0))
-            {
-                target_object = noone;
-                state = monster_state.IDLE;
-            }
-            else if (min_dist <= attack_range)
-            {
-                state = monster_state.ATTACK;
-            }
-            else
-            {
-                // Convertendo move_towards_point para move_x/y
-                var dir = point_direction(x, y, target_object.x, target_object.y);
-                move_x = lengthdir_x(move_speed, dir);
-                move_y = lengthdir_y(move_speed, dir);
-            }
-        }
+	    if (target_object == noone) {
+	        state = monster_state.IDLE;
+	    }
+	    else
+	    {
+	        if (!instance_exists(target_object) ||
+	            (target_object.object_index != obj_personagem &&
+	             variable_instance_exists(target_object, "hp") &&
+	             target_object.hp <= 0))
+	        {
+	            target_object = noone;
+	            state = monster_state.IDLE;
+	        }
+	        else if (min_dist <= attack_range)
+	        {
+	            state = monster_state.ATTACK;
+	        }
+	        else
+	        {
+	            var dir = point_direction(x, y, target_object.x, target_object.y);
+	            move_x = lengthdir_x(move_speed, dir);
+	            move_y = lengthdir_y(move_speed, dir);
 
-        sprite_index = sprite_idle;
-        image_speed = 1;
+	            if (hp < max_hp * 0.3) {
+	                move_x *= 1.5;
+	                move_y *= 1.5;
+	            }
+	        }
+	    }
 
-        // Flip do monstro
-        if (move_x != 0) image_xscale = sign(move_x) * 0.41;
+	    sprite_index = sprite_idle;
+	    image_speed = 1;
 
-    break;
+	    if (move_x != 0) image_xscale = sign(move_x) * 0.41;
+
+	break;
 
 
     // ---------------------------------------------------
@@ -119,7 +122,6 @@ switch (state)
         {
             var target_valid = true;
 
-            // Se for árvore checar HP
             if (target_object.object_index == obj_arvore1 ||
                 target_object.object_index == obj_arvore2 ||
                 target_object.object_index == obj_arvore3)
@@ -158,19 +160,18 @@ switch (state)
     break;
 }
 
-// -------------------------------------------------------
-// COLISÃO — SUAVE (SEM TRAVAR)
-// -------------------------------------------------------
 
+// -------------------------------------------------------
+// COLISÃO SUAVE
+// -------------------------------------------------------
 var step_x = move_x;
 var step_y = move_y;
 
-// --- COLISÃO X ---
+// X
 if (step_x != 0) {
     if (!place_meeting(x + step_x, y, obj_colisao_mundo)) {
         x += step_x;
     } else {
-        // desliza um pouco sem travar
         if (!place_meeting(x + sign(step_x), y, obj_colisao_mundo)) {
             x += sign(step_x);
         }
@@ -178,12 +179,11 @@ if (step_x != 0) {
     }
 }
 
-// --- COLISÃO Y ---
+// Y
 if (step_y != 0) {
     if (!place_meeting(x, y + step_y, obj_colisao_mundo)) {
         y += step_y;
     } else {
-        // desliza um pouco sem travar
         if (!place_meeting(x, y + sign(step_y), obj_colisao_mundo)) {
             y += sign(step_y);
         }
@@ -191,12 +191,13 @@ if (step_y != 0) {
     }
 }
 
-// ----------------------------------------------
-// VERIFICAÇÃO DE VITÓRIA DO MONSTRO (FIM DE JOGO)
-// ----------------------------------------------
+
+// -------------------------------------------------------
+// VERIFICAÇÃO DE VITÓRIA DO MONSTRO
+// -------------------------------------------------------
 var all_trees_destroyed = true;
 
-// Verifica obj_arvore1
+// Árvore 1
 var tree1_count = instance_number(obj_arvore1);
 for (var i = 0; i < tree1_count; i++) {
     var tree = instance_find(obj_arvore1, i);
@@ -206,7 +207,7 @@ for (var i = 0; i < tree1_count; i++) {
     }
 }
 
-// Se ainda não encontrou árvores vivas, verifica obj_arvore2
+// Árvore 2
 if (all_trees_destroyed) {
     var tree2_count = instance_number(obj_arvore2);
     for (var i = 0; i < tree2_count; i++) {
@@ -218,7 +219,7 @@ if (all_trees_destroyed) {
     }
 }
 
-// Se ainda não encontrou árvores vivas, verifica obj_arvore3
+// Árvore 3
 if (all_trees_destroyed) {
     var tree3_count = instance_number(obj_arvore3);
     for (var i = 0; i < tree3_count; i++) {
@@ -230,7 +231,7 @@ if (all_trees_destroyed) {
     }
 }
 
-// Se todas as árvores foram destruídas, mostra tela de fim de jogo
+// Fim de jogo
 if (all_trees_destroyed) {
     room_goto(fim_de_jogo);
 }
