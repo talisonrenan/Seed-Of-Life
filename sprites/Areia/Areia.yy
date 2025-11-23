@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Areia",
   "bboxMode":0,
   "bbox_bottom":843,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a4797d16-d43f-4a1d-a198-9d180127a4b0","name":"a4797d16-d43f-4a1d-a198-9d180127a4b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a4797d16-d43f-4a1d-a198-9d180127a4b0","name":"a4797d16-d43f-4a1d-a198-9d180127a4b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

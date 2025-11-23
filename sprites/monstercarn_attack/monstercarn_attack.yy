@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"monstercarn_attack",
   "bboxMode":0,
   "bbox_bottom":208,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cb43d3d3-2b82-4f50-b953-be1067427a72","name":"cb43d3d3-2b82-4f50-b953-be1067427a72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"cb43d3d3-2b82-4f50-b953-be1067427a72","name":"cb43d3d3-2b82-4f50-b953-be1067427a72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

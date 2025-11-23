@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"vazo",
   "bboxMode":0,
   "bbox_bottom":232,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e2c0b7e2-c427-4201-a988-7b57e530c886","name":"e2c0b7e2-c427-4201-a988-7b57e530c886","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e2c0b7e2-c427-4201-a988-7b57e530c886","name":"e2c0b7e2-c427-4201-a988-7b57e530c886","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

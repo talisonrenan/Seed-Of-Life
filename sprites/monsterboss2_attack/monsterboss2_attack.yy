@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"monsterboss2_attack",
   "bboxMode":0,
   "bbox_bottom":250,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
