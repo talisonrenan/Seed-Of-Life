@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"palmeira",
   "bboxMode":0,
   "bbox_bottom":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b517884e-da65-4f6c-907d-f53b4c8d87c3","name":"b517884e-da65-4f6c-907d-f53b4c8d87c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b517884e-da65-4f6c-907d-f53b4c8d87c3","name":"b517884e-da65-4f6c-907d-f53b4c8d87c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":484.0,
-    "seqWidth":204.0,
+    "seqHeight":463.0,
+    "seqWidth":199.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

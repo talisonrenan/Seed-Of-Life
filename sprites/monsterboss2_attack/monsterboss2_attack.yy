@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"monsterboss2_attack",
   "bboxMode":0,
   "bbox_bottom":250,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,15 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","path":"sprites/monsterboss2_attack/monsterboss2_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dd0c71b7-1182-4caf-bf7d-c93483d2c0fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","path":"sprites/monsterboss2_attack/monsterboss2_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"675b1dd2-5e74-46ca-8867-427d340eb6ee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","path":"sprites/monsterboss2_attack/monsterboss2_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"24137cb3-dbac-449a-b993-15366fb9596d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6fdab1f-95b5-4f7c-9e5b-f19dfc7e4d90","path":"sprites/monsterboss2_attack/monsterboss2_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dd0c71b7-1182-4caf-bf7d-c93483d2c0fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e9478ff-84e7-4eb5-8388-2d1bdc4b73ef","path":"sprites/monsterboss2_attack/monsterboss2_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"675b1dd2-5e74-46ca-8867-427d340eb6ee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebe2fb86-9342-437b-88a6-d1033ef4a8b6","path":"sprites/monsterboss2_attack/monsterboss2_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"24137cb3-dbac-449a-b993-15366fb9596d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

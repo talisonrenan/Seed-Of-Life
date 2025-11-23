@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"SeedOfLife",
   "bboxMode":0,
   "bbox_bottom":123,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"06581dd9-8c18-4b72-9dd2-3e2f72871607","name":"06581dd9-8c18-4b72-9dd2-3e2f72871607","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"06581dd9-8c18-4b72-9dd2-3e2f72871607","name":"06581dd9-8c18-4b72-9dd2-3e2f72871607","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

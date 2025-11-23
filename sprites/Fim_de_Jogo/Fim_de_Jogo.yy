@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Fim_de_Jogo",
   "bboxMode":0,
   "bbox_bottom":150,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1a72c763-d1af-4f24-ba6e-8f80fca358a0","name":"1a72c763-d1af-4f24-ba6e-8f80fca358a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1a72c763-d1af-4f24-ba6e-8f80fca358a0","name":"1a72c763-d1af-4f24-ba6e-8f80fca358a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

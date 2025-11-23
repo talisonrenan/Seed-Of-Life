@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Proximo_Fase",
   "bboxMode":0,
   "bbox_bottom":69,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"30c6a8f9-8e96-46b5-bd4b-f039e3fe5c7a","name":"30c6a8f9-8e96-46b5-bd4b-f039e3fe5c7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"30c6a8f9-8e96-46b5-bd4b-f039e3fe5c7a","name":"30c6a8f9-8e96-46b5-bd4b-f039e3fe5c7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

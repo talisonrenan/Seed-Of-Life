@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"farol",
   "bboxMode":0,
   "bbox_bottom":804,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f32151c9-0f36-4f88-b081-f6331cc8d697","name":"f32151c9-0f36-4f88-b081-f6331cc8d697","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f32151c9-0f36-4f88-b081-f6331cc8d697","name":"f32151c9-0f36-4f88-b081-f6331cc8d697","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":947.0,
-    "seqWidth":691.0,
+    "seqHeight":810.0,
+    "seqWidth":400.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

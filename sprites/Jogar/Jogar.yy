@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Jogar",
   "bboxMode":0,
   "bbox_bottom":67,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

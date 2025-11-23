@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Cogumelos_3",
   "bboxMode":0,
   "bbox_bottom":278,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"23c4f24d-bd50-4b10-a321-eb578aafbb8d","name":"23c4f24d-bd50-4b10-a321-eb578aafbb8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"23c4f24d-bd50-4b10-a321-eb578aafbb8d","name":"23c4f24d-bd50-4b10-a321-eb578aafbb8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":279.0,
+    "seqWidth":250.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
