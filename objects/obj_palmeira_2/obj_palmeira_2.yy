@@ -9,10 +9,7 @@
     "name":"obj_mundo",
     "path":"folders/Objetos/obj_mundo.yy",
   },
-  "parentObjectId":{
-    "name":"obj_colisao_mundo",
-    "path":"objects/obj_colisao_mundo/obj_colisao_mundo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

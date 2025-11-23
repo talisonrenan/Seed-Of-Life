@@ -8,7 +8,7 @@ direction = 0; // Será definida pelo personagem
 friction = 0.05;
 
 // Tempo de vida
-life_timer = 180; // 3 segundos
+life_timer = 11;
 
 // Dano (se necessário)
 damage = 1;

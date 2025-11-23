@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Gemini_Generated_Image_ofan36ofan36ofan_Picsart_BackgroundRemover",
   "bboxMode":2,
   "bbox_bottom":371,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6ecf9665-0b5e-4be0-b5ae-b72c18f2cbe1","name":"6ecf9665-0b5e-4be0-b5ae-b72c18f2cbe1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6ecf9665-0b5e-4be0-b5ae-b72c18f2cbe1","name":"6ecf9665-0b5e-4be0-b5ae-b72c18f2cbe1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,25 +1,25 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"farol",
   "bboxMode":0,
-  "bbox_bottom":830,
-  "bbox_left":153,
-  "bbox_right":537,
-  "bbox_top":31,
+  "bbox_bottom":804,
+  "bbox_left":10,
+  "bbox_right":394,
+  "bbox_top":5,
   "collisionKind":0,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c0998018-8df5-4da9-ba57-f9839f04a22b","name":"c0998018-8df5-4da9-ba57-f9839f04a22b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f32151c9-0f36-4f88-b081-f6331cc8d697","name":"f32151c9-0f36-4f88-b081-f6331cc8d697","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":947,
+  "height":810,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"096968da-873b-4a93-8623-ada1eb5cf510","blendMode":0,"displayName":"default","isLocked":false,"name":"096968da-873b-4a93-8623-ada1eb5cf510","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5b6f2c0c-3360-45fe-9e35-6d27863cbc33","blendMode":0,"displayName":"default","isLocked":false,"name":"5b6f2c0c-3360-45fe-9e35-6d27863cbc33","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"farol",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0998018-8df5-4da9-ba57-f9839f04a22b","path":"sprites/farol/farol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fcea3f8b-5496-47e0-b3fd-8f8901bcb3e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f32151c9-0f36-4f88-b081-f6331cc8d697","path":"sprites/farol/farol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"26465d1d-0e84-495b-9ac1-cdb9180bdcb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -88,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":691,
+  "width":400,
 }
