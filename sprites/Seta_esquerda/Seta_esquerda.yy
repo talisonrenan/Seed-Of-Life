@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Seta_esquerda",
   "bboxMode":0,
   "bbox_bottom":172,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"49e3c0ab-7813-49ac-9605-5b6d8e1e3320","name":"49e3c0ab-7813-49ac-9605-5b6d8e1e3320","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49e3c0ab-7813-49ac-9605-5b6d8e1e3320","name":"49e3c0ab-7813-49ac-9605-5b6d8e1e3320","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

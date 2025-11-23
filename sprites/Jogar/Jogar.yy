@@ -1,25 +1,25 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Jogar",
   "bboxMode":0,
-  "bbox_bottom":67,
-  "bbox_left":6,
-  "bbox_right":194,
-  "bbox_top":18,
+  "bbox_bottom":47,
+  "bbox_left":1,
+  "bbox_right":189,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3893d3fa-ce83-4145-81ac-4cffd96efa7d","name":"3893d3fa-ce83-4145-81ac-4cffd96efa7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":82,
+  "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3a00d967-58a5-4744-a64e-fc54553fc1ac","blendMode":0,"displayName":"default","isLocked":false,"name":"3a00d967-58a5-4744-a64e-fc54553fc1ac","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f0c1edfb-a1fb-4fb6-9322-0e8374c61be2","blendMode":0,"displayName":"default","isLocked":false,"name":"f0c1edfb-a1fb-4fb6-9322-0e8374c61be2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Jogar",
   "nineSlice":null,
@@ -70,7 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ead56d0a-a15a-4c3f-9da1-6c453430e098","path":"sprites/Jogar/Jogar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a07c1583-7d04-4e4a-b578-e55993176fc9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3893d3fa-ce83-4145-81ac-4cffd96efa7d","path":"sprites/Jogar/Jogar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5174d36d-52be-48cd-8a79-5e82727cae80","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":210,
+  "width":190,
 }

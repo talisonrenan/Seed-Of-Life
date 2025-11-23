@@ -2,5 +2,5 @@
 
 executar_room = function(){
 	
-	room_goto(menu);
+	room_goto(tela_inicio);
 }

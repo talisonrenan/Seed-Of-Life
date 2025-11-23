@@ -1,0 +1,1 @@
+despausar_jogo();
