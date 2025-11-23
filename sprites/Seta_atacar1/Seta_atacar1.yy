@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Seta_atacar1",
   "bboxMode":0,
   "bbox_bottom":185,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"745af02b-68f2-4472-b42d-66197c8d1a57","name":"745af02b-68f2-4472-b42d-66197c8d1a57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"745af02b-68f2-4472-b42d-66197c8d1a57","name":"745af02b-68f2-4472-b42d-66197c8d1a57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

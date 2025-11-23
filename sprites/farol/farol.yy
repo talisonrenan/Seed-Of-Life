@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"farol",
   "bboxMode":0,
   "bbox_bottom":804,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f32151c9-0f36-4f88-b081-f6331cc8d697","name":"f32151c9-0f36-4f88-b081-f6331cc8d697","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f32151c9-0f36-4f88-b081-f6331cc8d697","name":"f32151c9-0f36-4f88-b081-f6331cc8d697","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

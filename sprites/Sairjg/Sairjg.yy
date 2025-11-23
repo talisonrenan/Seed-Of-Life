@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Sairjg",
   "bboxMode":0,
   "bbox_bottom":76,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5b22b722-bea2-4727-9960-4c981360960b","name":"5b22b722-bea2-4727-9960-4c981360960b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b22b722-bea2-4727-9960-4c981360960b","name":"5b22b722-bea2-4727-9960-4c981360960b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

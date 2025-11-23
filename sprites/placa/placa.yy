@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"placa",
   "bboxMode":0,
   "bbox_bottom":782,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","name":"0cbea705-04e3-4724-8fbe-1e42e78f7041","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

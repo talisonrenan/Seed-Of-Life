@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"fundo1",
-    "path":"sprites/fundo1/fundo1.yy",
+    "name":"_6_Sem_T_tulo_20251123141347_Picsart_BackgroundRemover",
+    "path":"sprites/_6_Sem_T_tulo_20251123141347_Picsart_BackgroundRemover/_6_Sem_T_tulo_20251123141347_Picsart_BackgroundRemover.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Cogumelos_1",
   "bboxMode":0,
   "bbox_bottom":278,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4f1af559-e1d2-48bc-b4b6-9daecac66eda","name":"4f1af559-e1d2-48bc-b4b6-9daecac66eda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f1af559-e1d2-48bc-b4b6-9daecac66eda","name":"4f1af559-e1d2-48bc-b4b6-9daecac66eda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

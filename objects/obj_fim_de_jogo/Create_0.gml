@@ -1,0 +1,1 @@
+global.sound_manager.object_appeared("obj_fim_de_jogo");

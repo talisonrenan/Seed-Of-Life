@@ -1,0 +1,1 @@
+global.sound_manager.object_appeared("obj_casa_2");

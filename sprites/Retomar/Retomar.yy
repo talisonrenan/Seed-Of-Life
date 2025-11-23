@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Retomar",
   "bboxMode":0,
   "bbox_bottom":354,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"46233793-a13e-400a-90d5-fe0f61a8b866","name":"46233793-a13e-400a-90d5-fe0f61a8b866","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46233793-a13e-400a-90d5-fe0f61a8b866","name":"46233793-a13e-400a-90d5-fe0f61a8b866","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
