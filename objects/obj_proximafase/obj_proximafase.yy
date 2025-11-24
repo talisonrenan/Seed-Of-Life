@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Proximo_Fase",
-    "path":"sprites/Proximo_Fase/Proximo_Fase.yy",
+    "name":"Proxima_fase1",
+    "path":"sprites/Proxima_fase1/Proxima_fase1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

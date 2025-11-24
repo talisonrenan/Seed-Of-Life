@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Voltar",
-    "path":"sprites/Voltar/Voltar.yy",
+    "name":"Voltar1",
+    "path":"sprites/Voltar1/Voltar1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

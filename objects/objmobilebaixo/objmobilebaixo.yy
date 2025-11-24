@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Seta_baixo",
-    "path":"sprites/Seta_baixo/Seta_baixo.yy",
+    "name":"Baixomb",
+    "path":"sprites/Baixomb/Baixomb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

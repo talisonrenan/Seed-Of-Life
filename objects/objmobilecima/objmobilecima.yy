@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Seta_cima",
-    "path":"sprites/Seta_cima/Seta_cima.yy",
+    "name":"Cimamb",
+    "path":"sprites/Cimamb/Cimamb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

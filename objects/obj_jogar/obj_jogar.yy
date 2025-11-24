@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Jogar",
-    "path":"sprites/Jogar/Jogar.yy",
+    "name":"Jogar1",
+    "path":"sprites/Jogar1/Jogar1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

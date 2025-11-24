@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SeedOfLife",
-    "path":"sprites/SeedOfLife/SeedOfLife.yy",
+    "name":"SeedOfLife1",
+    "path":"sprites/SeedOfLife1/SeedOfLife1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

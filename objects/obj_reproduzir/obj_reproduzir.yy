@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Reproduzir",
-    "path":"sprites/Reproduzir/Reproduzir.yy",
+    "name":"_1763945587872",
+    "path":"sprites/_1763945587872/_1763945587872.yy",
   },
   "spriteMaskId":null,
   "visible":true,

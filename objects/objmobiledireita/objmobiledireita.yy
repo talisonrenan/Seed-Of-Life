@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Seta_direita",
-    "path":"sprites/Seta_direita/Seta_direita.yy",
+    "name":"Direitamb",
+    "path":"sprites/Direitamb/Direitamb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Reiniciar",
-    "path":"sprites/Reiniciar/Reiniciar.yy",
+    "name":"Reiniciar1",
+    "path":"sprites/Reiniciar1/Reiniciar1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

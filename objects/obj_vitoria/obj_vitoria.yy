@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Vitoria",
-    "path":"sprites/Vitoria/Vitoria.yy",
+    "name":"Vitoria1",
+    "path":"sprites/Vitoria1/Vitoria1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

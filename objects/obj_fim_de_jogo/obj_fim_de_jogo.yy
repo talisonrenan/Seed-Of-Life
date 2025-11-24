@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Fim_de_Jogo",
-    "path":"sprites/Fim_de_Jogo/Fim_de_Jogo.yy",
+    "name":"Fim_de_jogo1",
+    "path":"sprites/Fim_de_jogo1/Fim_de_jogo1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

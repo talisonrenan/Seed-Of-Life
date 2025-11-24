@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Pause",
-    "path":"sprites/Pause/Pause.yy",
+    "name":"_1763945552244",
+    "path":"sprites/_1763945552244/_1763945552244.yy",
   },
   "spriteMaskId":null,
   "visible":true,

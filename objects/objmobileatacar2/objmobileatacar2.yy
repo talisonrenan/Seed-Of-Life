@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Seta_atacar2",
-    "path":"sprites/Seta_atacar2/Seta_atacar2.yy",
+    "name":"Ataque2",
+    "path":"sprites/Ataque2/Ataque2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

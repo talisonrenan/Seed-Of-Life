@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"_6_Sem_T_tulo_20251123141347_Picsart_BackgroundRemover",
-    "path":"sprites/_6_Sem_T_tulo_20251123141347_Picsart_BackgroundRemover/_6_Sem_T_tulo_20251123141347_Picsart_BackgroundRemover.yy",
+    "name":"Fundocontroles",
+    "path":"sprites/Fundocontroles/Fundocontroles.yy",
   },
   "spriteMaskId":null,
   "visible":true,

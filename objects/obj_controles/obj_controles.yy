@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Controles",
-    "path":"sprites/Controles/Controles.yy",
+    "name":"Controles1",
+    "path":"sprites/Controles1/Controles1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

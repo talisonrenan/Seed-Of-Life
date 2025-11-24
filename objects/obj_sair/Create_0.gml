@@ -1,6 +1,6 @@
 
 
 executar_room = function(){
-	game_end();	
 	
+	room_goto(tela_inicio);
 }

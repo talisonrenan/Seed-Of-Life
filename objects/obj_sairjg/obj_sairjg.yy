@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sairjg",
-    "path":"sprites/Sairjg/Sairjg.yy",
+    "name":"Sair1",
+    "path":"sprites/Sair1/Sair1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

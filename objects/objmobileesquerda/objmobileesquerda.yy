@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Seta_esquerda",
-    "path":"sprites/Seta_esquerda/Seta_esquerda.yy",
+    "name":"Esquerdamb",
+    "path":"sprites/Esquerdamb/Esquerdamb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

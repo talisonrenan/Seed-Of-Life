@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Retomar",
-    "path":"sprites/Retomar/Retomar.yy",
+    "name":"Retomar_partida1",
+    "path":"sprites/Retomar_partida1/Retomar_partida1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

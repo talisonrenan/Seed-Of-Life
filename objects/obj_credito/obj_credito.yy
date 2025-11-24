@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Creditos",
-    "path":"sprites/Creditos/Creditos.yy",
+    "name":"Creditos1",
+    "path":"sprites/Creditos1/Creditos1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
