@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Sprite_vitoria",
   "bboxMode":0,
   "bbox_bottom":1056,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b619e806-77b8-4d6d-99e1-e5985d12c056","name":"b619e806-77b8-4d6d-99e1-e5985d12c056","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b619e806-77b8-4d6d-99e1-e5985d12c056","name":"b619e806-77b8-4d6d-99e1-e5985d12c056","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

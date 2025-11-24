@@ -22,8 +22,8 @@ sprite_index = sprite_idle;
 image_speed = 1;
 
 // Escala do monstro
-image_xscale = 0.13;
-image_yscale = 0.31;
+image_xscale = 0.10;
+image_yscale = 0.25;
 
 // Colisão reduzida
 col_padding = 1.5;

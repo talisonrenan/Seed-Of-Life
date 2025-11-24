@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Sprite_atacado",
   "bboxMode":0,
   "bbox_bottom":342,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0f815db0-19f8-4890-abd8-0ee027219ef4","name":"0f815db0-19f8-4890-abd8-0ee027219ef4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f815db0-19f8-4890-abd8-0ee027219ef4","name":"0f815db0-19f8-4890-abd8-0ee027219ef4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

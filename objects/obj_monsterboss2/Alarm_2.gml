@@ -42,7 +42,7 @@ if (instance_exists(target_object)) {
     // Se o alvo for o personagem
     else if (target_object.object_index == obj_personagem) {
 
-        var personagem_damage = 4;
+        var personagem_damage = 3;
 
         if (variable_instance_exists(target_object, "hp_personagem")) {
 

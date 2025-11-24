@@ -41,6 +41,7 @@ function object_appeared(object_name) {
             play_music(ganhou, false);
             break;
         case "obj_casa_2":
+		case "obj_palmeira":
             play_music(batalha, true);
             break;
         case "obj_menu":
@@ -49,7 +50,7 @@ function object_appeared(object_name) {
         case "obj_fim_de_jogo":
             play_music(fim_de_jogo3, false);
             break;
-        case "obj_sideof":
+        case "obj_sideof": 
             play_music(trilha_sonora, true);
             break;
     }
