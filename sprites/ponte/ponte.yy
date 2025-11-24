@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"ponte",
   "bboxMode":0,
   "bbox_bottom":151,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0e083cc7-3fdc-4ea2-91a1-6b47893392a2","name":"0e083cc7-3fdc-4ea2-91a1-6b47893392a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0e083cc7-3fdc-4ea2-91a1-6b47893392a2","name":"0e083cc7-3fdc-4ea2-91a1-6b47893392a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

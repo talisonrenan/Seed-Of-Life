@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Ataque2",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"85e9bf74-4c47-43dc-8099-00e3e59884b7","name":"85e9bf74-4c47-43dc-8099-00e3e59884b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"85e9bf74-4c47-43dc-8099-00e3e59884b7","name":"85e9bf74-4c47-43dc-8099-00e3e59884b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1079.0,
+    "seqWidth":1137.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

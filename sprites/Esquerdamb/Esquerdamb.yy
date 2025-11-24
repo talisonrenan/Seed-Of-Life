@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Esquerdamb",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1079.0,
+    "seqWidth":1137.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

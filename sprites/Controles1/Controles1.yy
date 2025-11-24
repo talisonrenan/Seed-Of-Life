@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Controles1",
   "bboxMode":0,
   "bbox_bottom":799,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8fff5ed6-5176-421f-88e7-f3d671998a79","name":"8fff5ed6-5176-421f-88e7-f3d671998a79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8fff5ed6-5176-421f-88e7-f3d671998a79","name":"8fff5ed6-5176-421f-88e7-f3d671998a79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":800.0,
+    "seqWidth":3788.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

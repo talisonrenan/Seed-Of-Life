@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"ativar_musica",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1079.0,
+    "seqWidth":1137.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

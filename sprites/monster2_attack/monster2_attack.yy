@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"monster2_attack",
   "bboxMode":0,
   "bbox_bottom":340,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a2ee2ab2-d3c7-49d4-a46b-8681f83042a4","name":"a2ee2ab2-d3c7-49d4-a46b-8681f83042a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a2ee2ab2-d3c7-49d4-a46b-8681f83042a4","name":"a2ee2ab2-d3c7-49d4-a46b-8681f83042a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

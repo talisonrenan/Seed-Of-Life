@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"HOUSE_2___DAY",
   "bboxMode":0,
   "bbox_bottom":111,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"93b1af7f-16ea-463c-bfe5-ff9365dc3945","name":"93b1af7f-16ea-463c-bfe5-ff9365dc3945","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"93b1af7f-16ea-463c-bfe5-ff9365dc3945","name":"93b1af7f-16ea-463c-bfe5-ff9365dc3945","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

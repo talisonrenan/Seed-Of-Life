@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Fundocreditos",
   "bboxMode":0,
   "bbox_bottom":1079,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"667e4319-3eb5-4006-ad89-8c2707bddaf6","name":"667e4319-3eb5-4006-ad89-8c2707bddaf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"667e4319-3eb5-4006-ad89-8c2707bddaf6","name":"667e4319-3eb5-4006-ad89-8c2707bddaf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1214.0,
+    "seqWidth":1080.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

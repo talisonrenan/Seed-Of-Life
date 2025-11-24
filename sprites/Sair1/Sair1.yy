@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Sair1",
   "bboxMode":0,
   "bbox_bottom":799,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"11583794-495b-4bac-90ec-ae7c4deeac73","name":"11583794-495b-4bac-90ec-ae7c4deeac73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"11583794-495b-4bac-90ec-ae7c4deeac73","name":"11583794-495b-4bac-90ec-ae7c4deeac73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":800.0,
+    "seqWidth":3788.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

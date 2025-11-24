@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"RPG_Nature_Tileset_Autumn",
   "bboxMode":0,
   "bbox_bottom":287,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e7f806a3-8792-4eb4-8457-e7ff4346819b","name":"e7f806a3-8792-4eb4-8457-e7ff4346819b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e7f806a3-8792-4eb4-8457-e7ff4346819b","name":"e7f806a3-8792-4eb4-8457-e7ff4346819b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

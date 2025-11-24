@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"desligar_musica",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d6e282e7-5335-4d1e-a5eb-6b45b4e19999","name":"d6e282e7-5335-4d1e-a5eb-6b45b4e19999","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d6e282e7-5335-4d1e-a5eb-6b45b4e19999","name":"d6e282e7-5335-4d1e-a5eb-6b45b4e19999","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1079.0,
+    "seqWidth":1137.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

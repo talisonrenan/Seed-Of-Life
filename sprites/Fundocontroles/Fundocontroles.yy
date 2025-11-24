@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Fundocontroles",
   "bboxMode":0,
   "bbox_bottom":1079,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c1555a96-8da6-4c0c-84b7-6ec4eb386461","name":"c1555a96-8da6-4c0c-84b7-6ec4eb386461","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c1555a96-8da6-4c0c-84b7-6ec4eb386461","name":"c1555a96-8da6-4c0c-84b7-6ec4eb386461","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1214.0,
+    "seqWidth":1080.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

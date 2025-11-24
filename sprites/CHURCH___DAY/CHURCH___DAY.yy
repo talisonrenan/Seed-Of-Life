@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"CHURCH___DAY",
   "bboxMode":2,
   "bbox_bottom":94,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a76ed7f0-f863-4d85-ac0e-1fd110d4677a","name":"a76ed7f0-f863-4d85-ac0e-1fd110d4677a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a76ed7f0-f863-4d85-ac0e-1fd110d4677a","name":"a76ed7f0-f863-4d85-ac0e-1fd110d4677a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

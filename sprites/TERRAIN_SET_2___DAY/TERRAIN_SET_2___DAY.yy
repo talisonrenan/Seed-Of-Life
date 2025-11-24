@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"TERRAIN_SET_2___DAY",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e00c4780-9f83-4d71-843f-4fee145cc237","name":"e00c4780-9f83-4d71-843f-4fee145cc237","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e00c4780-9f83-4d71-843f-4fee145cc237","name":"e00c4780-9f83-4d71-843f-4fee145cc237","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
