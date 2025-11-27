@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Ataque1",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"84eaff1e-c943-460e-b668-1fa8d17dc03a","name":"84eaff1e-c943-460e-b668-1fa8d17dc03a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"84eaff1e-c943-460e-b668-1fa8d17dc03a","name":"84eaff1e-c943-460e-b668-1fa8d17dc03a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Direitamb",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d971824f-26b1-4b6a-beca-7ff66f1aa2b0","name":"d971824f-26b1-4b6a-beca-7ff66f1aa2b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d971824f-26b1-4b6a-beca-7ff66f1aa2b0","name":"d971824f-26b1-4b6a-beca-7ff66f1aa2b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

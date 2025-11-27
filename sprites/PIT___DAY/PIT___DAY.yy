@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"PIT___DAY",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cb9a6d9c-80fc-4aff-86e8-bb1cd3a39459","name":"cb9a6d9c-80fc-4aff-86e8-bb1cd3a39459","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"cb9a6d9c-80fc-4aff-86e8-bb1cd3a39459","name":"cb9a6d9c-80fc-4aff-86e8-bb1cd3a39459","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

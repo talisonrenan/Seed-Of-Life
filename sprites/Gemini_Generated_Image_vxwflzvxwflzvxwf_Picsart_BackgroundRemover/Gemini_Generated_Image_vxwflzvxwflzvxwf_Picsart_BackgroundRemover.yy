@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Gemini_Generated_Image_vxwflzvxwflzvxwf_Picsart_BackgroundRemover",
   "bboxMode":0,
   "bbox_bottom":773,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"177acf1b-2436-4f06-9707-54be48b655a9","name":"177acf1b-2436-4f06-9707-54be48b655a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"177acf1b-2436-4f06-9707-54be48b655a9","name":"177acf1b-2436-4f06-9707-54be48b655a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

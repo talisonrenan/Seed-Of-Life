@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"backgroun11_Picsart_BackgroundRemover",
   "bboxMode":0,
   "bbox_bottom":165,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b29afa6b-1f1c-467d-8d6a-9374a36ad2b8","name":"b29afa6b-1f1c-467d-8d6a-9374a36ad2b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b29afa6b-1f1c-467d-8d6a-9374a36ad2b8","name":"b29afa6b-1f1c-467d-8d6a-9374a36ad2b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

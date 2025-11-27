@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Voltar1",
   "bboxMode":0,
   "bbox_bottom":799,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f499be38-801a-4b26-92ab-4551f92d6f86","name":"f499be38-801a-4b26-92ab-4551f92d6f86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f499be38-801a-4b26-92ab-4551f92d6f86","name":"f499be38-801a-4b26-92ab-4551f92d6f86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
