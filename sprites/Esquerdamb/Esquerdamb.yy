@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Esquerdamb",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","name":"ff7f261b-dc14-40c0-b3c0-3203d5fdb679","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

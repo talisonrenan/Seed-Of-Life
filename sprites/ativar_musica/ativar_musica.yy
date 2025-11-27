@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"ativar_musica",
   "bboxMode":0,
   "bbox_bottom":1032,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","name":"4b5d7fb8-8707-4acc-bcd7-95ca7a37f360","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Retomar_partida1",
   "bboxMode":0,
   "bbox_bottom":799,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bc4773f9-a3b6-4a96-90da-f2c4b26ff16d","name":"bc4773f9-a3b6-4a96-90da-f2c4b26ff16d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc4773f9-a3b6-4a96-90da-f2c4b26ff16d","name":"bc4773f9-a3b6-4a96-90da-f2c4b26ff16d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

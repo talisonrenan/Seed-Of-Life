@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"projeto_seminario",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"projeto_seminario",
   "resources":[
@@ -74,6 +74,7 @@
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_globals","path":"objects/obj_globals/obj_globals.yy",},},
     {"id":{"name":"obj_jogar","path":"objects/obj_jogar/obj_jogar.yy",},},
+    {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
     {"id":{"name":"obj_menu_controle","path":"objects/obj_menu_controle/obj_menu_controle.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_monsterboss","path":"objects/obj_monsterboss/obj_monsterboss.yy",},},
@@ -137,6 +138,7 @@
     {"id":{"name":"trilha_sonora","path":"sounds/trilha_sonora/trilha_sonora.yy",},},
     {"id":{"name":"_1763945552244","path":"sprites/_1763945552244/_1763945552244.yy",},},
     {"id":{"name":"_1763945587872","path":"sprites/_1763945587872/_1763945587872.yy",},},
+    {"id":{"name":"_1764218067103","path":"sprites/_1764218067103/_1764218067103.yy",},},
     {"id":{"name":"Areia","path":"sprites/Areia/Areia.yy",},},
     {"id":{"name":"arvore_1","path":"sprites/arvore_1/arvore_1.yy",},},
     {"id":{"name":"arvore_2","path":"sprites/arvore_2/arvore_2.yy",},},
@@ -179,6 +181,7 @@
     {"id":{"name":"HOUSE_2___DAY","path":"sprites/HOUSE_2___DAY/HOUSE_2___DAY.yy",},},
     {"id":{"name":"HOUSE_2___DAY2","path":"sprites/HOUSE_2___DAY2/HOUSE_2___DAY2.yy",},},
     {"id":{"name":"IceTileset","path":"sprites/IceTileset/IceTileset.yy",},},
+    {"id":{"name":"Imagem1dfs","path":"sprites/Imagem1dfs/Imagem1dfs.yy",},},
     {"id":{"name":"Jogar1","path":"sprites/Jogar1/Jogar1.yy",},},
     {"id":{"name":"Menu1","path":"sprites/Menu1/Menu1.yy",},},
     {"id":{"name":"monster2_attack","path":"sprites/monster2_attack/monster2_attack.yy",},},

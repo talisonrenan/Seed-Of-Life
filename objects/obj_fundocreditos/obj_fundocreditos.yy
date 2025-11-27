@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Fundocreditos",
-    "path":"sprites/Fundocreditos/Fundocreditos.yy",
+    "name":"_1764218067103",
+    "path":"sprites/_1764218067103/_1764218067103.yy",
   },
   "spriteMaskId":null,
   "visible":true,
