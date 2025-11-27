@@ -9,13 +9,18 @@ if (!variable_global_exists("musica_tocando")) {
 
 // Aplicar estado inicial do som
 if (global.musica_tocando) {
-    audio_master_gain(1); // Som ligado
+    audio_master_gain(1); // Som ligado - 100%
 } else {
-    audio_master_gain(0); // Som desligado
+    audio_master_gain(0); // Som desligado - 0%
 }
 
 // Função principal para tocar música
 function play_music(sound_id, loop = true) {
+    // Só toca se o som estiver habilitado globalmente
+    if (!global.musica_tocando) {
+        return -1;
+    }
+    
     // Só troca se for uma música DIFERENTE da atual
     if (current_music_id != sound_id) {
         // Para a música atual se estiver tocando
@@ -26,13 +31,18 @@ function play_music(sound_id, loop = true) {
         // Atualiza para a nova música
         current_music = sound_id;
         current_music_id = sound_id;
-        audio_play_sound(sound_id, 0.7, loop);
+        return audio_play_sound(sound_id, 0.7, loop);
     }
+    return current_music;
 }
 
 // Tocar efeitos sonoros
 function play_sfx(sound_id) {
-    audio_play_sound(sound_id, 1.0, false);
+    // Só toca se o som estiver habilitado globalmente
+    if (!global.musica_tocando) {
+        return -1;
+    }
+    return audio_play_sound(sound_id, 1.0, false);
 }
 
 // Parar música
@@ -44,7 +54,7 @@ function stop_music() {
     current_music_id = -1;
 }
 
-// --- SISTEMA AUTOMÁTICO POR OBJETO E ROOM ---
+// --- SISTEMA AUTOMÁTICO POR OBJETO ---
 
 // Quando um objeto específico aparece, toca sua música
 function object_appeared(object_name) {
@@ -54,8 +64,6 @@ function object_appeared(object_name) {
             break;
         case "obj_casa_2":
         case "obj_palmeira":
-        case "obj_fase_inicial":  // ADICIONE ESTA LINHA
-        case "obj_fase_secundaria": // ADICIONE ESTA LINHA
             play_music(batalha, true);
             break;
         case "obj_menu":
@@ -66,28 +74,6 @@ function object_appeared(object_name) {
             break;
         case "obj_sideof": 
             play_music(trilha_sonora, true);
-            break;
-    }
-}
-
-// Quando uma room é carregada, toca a música correta
-function room_loaded() {
-    switch (room) {
-        case tela_inicio:
-        case creditos:
-        case controles:
-        case menu:
-            play_music(loop_menu, true);
-            break;
-        case fase_inicial:
-        case fase_secundaria:
-            play_music(batalha, true); // AGORA toca "batalha" nas fases
-            break;
-        case tela_de_vitoria:
-            play_music(ganhou, false);
-            break;
-        case fim_de_jogo:
-            play_music(fim_de_jogo3, false);
             break;
     }
 }
